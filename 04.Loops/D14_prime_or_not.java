@@ -12,7 +12,7 @@ public class D14_prime_or_not{
             System.out.println("Prime");
         }
         else{
-            for(i = 2;i < num;i++){
+            for(i = 2;i < Math.sqrt(num);i++){
                 if(num % i == 0){
                     System.out.println("Not Prime..");
                     break;
