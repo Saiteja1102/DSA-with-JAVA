@@ -32,6 +32,4 @@ public class D09_Calculator_using_Switch {
         }
         sc.close();
     }
-
-    // 9440082288
 }
